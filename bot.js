@@ -310,7 +310,7 @@ client.on("guildMemberAdd", member => {
 });
 /////////
 client.on('message', msg => {
-    if(msg.content === '$help')
+    if(msg.content === '+inv')
     msg.reply('شوف خاصك :white_check_mark:')
   });
  
