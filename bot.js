@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "$"
+var prefix = "+"
  
 client.on('message', message => {
     var p = message.mentions.members.first();
@@ -316,7 +316,7 @@ client.on('message', msg => {
  
  
   client.on("message", message => {
-    if (message.content === "$help") {
+    if (message.content === "+inv") {
      const embed = new Discord.RichEmbed()
          .setColor("#00FF00")
          .setThumbnail(message.author.avatarURL)
